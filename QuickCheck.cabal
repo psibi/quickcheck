@@ -41,7 +41,7 @@ source-repository this
 
 flag templateHaskell
   Description: Build Test.QuickCheck.All, which uses Template Haskell.
-  Default: True
+  Default: False
 
 library
   Build-depends: base >=4.3 && <5, random, containers
